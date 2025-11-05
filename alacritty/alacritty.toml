@@ -1,0 +1,11 @@
+[window]
+padding = { x = 4, y = 4 }
+decorations = "Full"
+opacity = 0.8
+
+[font]
+normal = { family = "Maple Mono NF CN", style = "Regular" }
+size = 14
+
+[cursor]
+style = { shape = "Block", blinking = "On" }
