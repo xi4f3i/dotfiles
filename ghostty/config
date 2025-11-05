@@ -1,0 +1,14 @@
+font-family = "Maple Mono NF CN"
+font-feature = -calt, -liga, -dlig
+
+cursor-style = block
+cursor-style-blink = true
+
+shell-integration-features = no-cursor
+
+background-opacity = 0.8
+
+window-height = 28
+window-width = 90
+window-padding-x = 8
+window-inherit-working-directory = false
