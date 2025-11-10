@@ -10,29 +10,29 @@
         // "sway/workspaces",
         // "sway/mode",
         // "sway/scratchpad",
-        "niri/workspaces",
-        "tray"
+        // "niri/workspaces"
     ],
     "modules-center": [
         // "sway/window",
-        "niri/window",
+        // "niri/window",
         "clock"
     ],
     "modules-right": [
         // "power-profiles-daemon",
         // "temperature",
         // "sway/language",
+        "tray",
         "niri/language",
         "idle_inhibitor",
-        "pulseaudio/slider",
-        "backlight/slider",
+        "pulseaudio",
+        "backlight",
         "network",
         "bluetooth",
         "cpu",
         "memory",
-		"privacy",
-        "battery",
-        "user"
+		// "privacy",
+        "battery"
+        // "user"
     ],
     // Modules configuration
     // "sway/workspaces": {
