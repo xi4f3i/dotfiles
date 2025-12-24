@@ -15,9 +15,11 @@ export VCPKG_ROOT=~/vcpkg
 export PATH=$VCPKG_ROOT:$PATH
 export VCPKG_DISABLE_METRICS=1
 
-## cmake
-export CMAKE_C_COMPILER=/usr/lib64/ccache/clang
-export CMAKE_CXX_COMPILER=/usr/lib64/ccache/clang++
-
 ## oh my posh
-eval "$(oh-my-posh init bash --config ~/xtoys.omp.json)"
+eval "$(oh-my-posh init bash --config ~/.cache/oh-my-posh/themes/xtoys.omp.json)"
+
+## electron env
+export ELECTRON_OZONE_PLATFORM_HINT=auto
+
+## xdg-open alias
+alias open='xdg-open'
