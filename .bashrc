@@ -1,25 +1,4 @@
-# User specific environment and startup programs
-## proxy
-export http_proxy="http://127.0.0.1:7890"
-export https_proxy="http://127.0.0.1:7890"
-export all_proxy="http://127.0.0.1:7890"
-
-## cargo
-. "$HOME/.cargo/env"
-
-## fcitx5
-export XMODIFIERS=@im=fcitx
-
-## vcpkg
-export VCPKG_ROOT=~/vcpkg
-export PATH=$VCPKG_ROOT:$PATH
-export VCPKG_DISABLE_METRICS=1
-
-## oh my posh
-eval "$(oh-my-posh init bash --config ~/.cache/oh-my-posh/themes/xtoys.omp.json)"
-
-## electron env
-export ELECTRON_OZONE_PLATFORM_HINT=auto
-
-## xdg-open alias
-alias open='xdg-open'
+# Load xi4f3i profile
+if [ -f "$HOME/.xi4f3i_profile" ]; then
+    . "$HOME/.xi4f3i_profile"
+fi

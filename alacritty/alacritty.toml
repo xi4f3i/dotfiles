@@ -1,7 +1,7 @@
-[general]
-import = [
-    "~/.config/alacritty/themes/themes/vscode.toml"
-]
+# [general]
+# import = [
+#     "~/.config/alacritty/themes/themes/vscode.toml"
+# ]
 
 [window]
 padding = { x = 4, y = 4 }
@@ -9,8 +9,8 @@ decorations = "Full"
 opacity = 0.9
 
 [font]
-normal = { family = "Maple Mono NF CN", style = "Regular" }
-size = 12
+normal = { family = "Fira Code", style = "Regular" }
+size = 10
 
 [cursor]
 style = { shape = "Block", blinking = "On" }
